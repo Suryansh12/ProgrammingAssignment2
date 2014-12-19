@@ -1,12 +1,8 @@
 ##makeCacheMatrix() and cachesolve() are collectively used to calculate
 ##and cache the inverse of a matrix.
 
-
 ##makeCacheMatrix function is used to create a special "matrix" object that can 
-##cache its inverse. The created object is of type "list" and store 2 things i.e.
-##original matrix's & cached inverse value. set,get,setinverse,getinverse functions
-##are used to read(get) and change(set) the 2 values.
-
+##cache its inverse. 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         
